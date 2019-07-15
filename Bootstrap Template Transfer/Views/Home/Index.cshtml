@@ -459,46 +459,32 @@
                                             <div class="col-sm-12">
                                                 <div id="code-display-fb">
                                                     <pre class="brush: js">
-                                            $("#btnFBRun").click(function () {
-                                            //Store Inputs
-                                            var fizzNum = +$("#fizzInput").val();
-                                            var buzzNum = +$("#buzzInput").val();
-                                            var fbNum = fizzNum * buzzNum;
-                                            //Form array
-                                            var outputArray = []
-                                            //fill array 1-100
-                                            for (var i = 1; i < 101; i++) {
-                                                if (i % fbNum == 0) {
-                                                //isolate numbers divided by both
-                                                outputArray.push('FizzBuzz');
-                                            } else if (i % fizzNum == 0) {
-                                                //isolate numbers divided by fizz
-                                                outputArray.push('Fizz');
-                                            } else if (i % buzzNum == 0) {
-                                                //isolate numbers divided by buzz
-                                                outputArray.push('Buzz');
-                                            } else outputArray.push(i);
-                                            }
-                                            //convert array into string
-                                            var fbArray = outputArray.join(' ');
-                                            //display results
-                                            $("#fbOutput").text(fbArray);
-
-
-            
-
-
-
-                                            //logs for testing
-                                            console.log('inputs secured, manipulating data...')
-                                            console.log(fizzNum);
-                                            console.log(buzzNum);
-                                            console.log(fbNum);
-                                            console.log(outputArray);
-
-
-                                        })
-                                        </pre>
+                                                        $("#btnFBRun").click(function () {
+                                                        //Store Inputs
+                                                        var fizzNum = +$("#fizzInput").val();
+                                                        var buzzNum = +$("#buzzInput").val();
+                                                        var fbNum = fizzNum * buzzNum;
+                                                        //Form array
+                                                        var outputArray = []
+                                                        //fill array 1-100
+                                                        for (var i = 1; i < 101; i++) {
+                                                            if (i % fbNum == 0) {
+                                                            //isolate numbers divided by both
+                                                            outputArray.push("<span id='fizzbuzzcolor'>FizzBuzz</span>");
+                                                        } else if (i % fizzNum == 0) {
+                                                            //isolate numbers divided by fizz
+                                                            outputArray.push("<span id='fizzcolor'>Fizz</span>");
+                                                        } else if (i % buzzNum == 0) {
+                                                            //isolate numbers divided by buzz
+                                                            outputArray.push("<span id='buzzcolor'>Buzz</span>");
+                                                        } else outputArray.push(i);
+                                                        }
+                                                        //convert array into string
+                                                        var fbArray = outputArray.join(' ');
+                                                        //display results
+                                                        $("#fbOutput").html(fbArray);
+                                            
+                                                    </pre>
                                                 </div>
                                             </div>
                                         </div>
