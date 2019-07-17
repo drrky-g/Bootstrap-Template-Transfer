@@ -17,7 +17,7 @@
 
 body {
   background: #000;
-  color: teal;
+  color: #BD3BF4;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
@@ -470,7 +470,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-title {
   font-size: 32px;
-  color: teal;
+  color: #BD3BF4;
   text-align: center;
   font-weight: 400;
 }
@@ -582,7 +582,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .icon i {
-  color: teal;;
+  color: #BD3BF4;;
   font-size: 40px;
   transition: 0.5s;
 }
@@ -602,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .title a {
-  color: teal;
+  color: #BD3BF4;
 }
 
 #features .description {
@@ -647,7 +647,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features i {
-  color: teal;;
+  color: #BD3BF4;;
   font-size: 64px;
   transition: 0.5s;
   float: left;
@@ -735,7 +735,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features .icon i {
-  color: teal;;
+  color: #BD3BF4;;
   font-size: 80px;
   transition: 0.5s;
   line-height: 0;
@@ -757,7 +757,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #more-features h4 a {
-  color: teal;
+  color: #BD3BF4;
 }
 
 #more-features p {
